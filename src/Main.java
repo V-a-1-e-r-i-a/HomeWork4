@@ -14,7 +14,7 @@ public class Main {
         int age2 = 22;
         if (age2 >= 7 && age2 < 18)
         {System.out.println("Ребенок ходит в школу.");}
-        if (age2 >= 18 && age2 <24)
+        if (age2 >= 18 && age2 < 24)
         {System.out.println("Человек ходит в университет.");}
         if (age2 >= 24)
         {System.out.println("Человек ходит на работу.");}
@@ -24,7 +24,7 @@ public class Main {
         int capacityOf1TrainCar = 102;
         int sittingPlace = 60;
         int standingPlace = capacityOf1TrainCar - sittingPlace;
-        int passengers =67;
+        int passengers = 67;
         if (passengers <= 60)
         {System.out.println("Есть " + (sittingPlace - passengers) + " сдячих мест и " + standingPlace + " стоячих мест.");}
         if (passengers > 60 && passengers <= 102)
@@ -43,7 +43,7 @@ public class Main {
         int age5 = 22;
         if (age5 >= 7 && age5 < 18)
         {System.out.println("Ребенок ходит в школу.");}
-        else if (age5 >= 18 && age5 <24)
+        else if (age5 >= 18 && age5 < 24)
         {System.out.println("Человек ходит в университет.");} else {System.out.println("Человек ходит на работу.");}
 
         //Задача 6
